@@ -1,0 +1,17 @@
+.hero {
+  /* background-color: red; */
+  background: url('https://lh3.googleusercontent.com/p/AF1QipOiXkA48iHlDkWOfB-6Ctt4vEWCYsC3wdDlF93t=s680-w680-h510');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 380px;
+  width: 100vw;
+}
+
+
+.hero__title {
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: white;
+  
+}
