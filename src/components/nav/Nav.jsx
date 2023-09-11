@@ -5,7 +5,6 @@ import './Nav.css'
 import { useState } from "react"
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 
-
 function NavLogo () {
   return (
     <figure className="nav__content-logo">
@@ -62,13 +61,7 @@ function NavMenu () {
         togleMenu && (
           <section className='nav__menu-content scale-up-center'>
             <ul className="nav__menu-links">
-              <li><Link>hola</Link></li>
-              <li><Link>hola</Link></li>
-              <li><Link>hola</Link></li>
-              <li><Link>hola</Link></li>
-              <li><Link>hola</Link></li>
-              <li><Link>hola</Link></li>
-              <li><Link>hola</Link></li>
+             
             </ul>
           </section>
         )

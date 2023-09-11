@@ -1,0 +1,8 @@
+.panel {
+  height: calc(100vh - 90px);
+  width: 100vw;
+  /* background: url('https://lh3.googleusercontent.com/p/AF1QipN_tItInfXXgMXnbqlw_UxpaB43tPE5oATsg-vq=s680-w680-h510'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
