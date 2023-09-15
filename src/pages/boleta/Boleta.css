@@ -1,0 +1,14 @@
+.boleta {
+  /* background-color: aqua; */
+  /* display: flex; */
+  /* justify-content: center; */
+  background: linear-gradient(rgba(202, 64, 64, .4), to top, rgba(202, 64, 64, .4)), url('../../assets/images/logo-2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  & .titulos {
+    color: red;
+    text-shadow: 2px 0 3px black ;
+  }
+}
