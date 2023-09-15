@@ -1,8 +1,30 @@
-.panel {
+.panel__content {
   height: calc(100vh - 90px);
-  width: 100vw;
-  /* background: url('https://lh3.googleusercontent.com/p/AF1QipN_tItInfXXgMXnbqlw_UxpaB43tPE5oATsg-vq=s680-w680-h510'); */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.student__info {
+  /* height:400px; */
+  /* width: 300px; */
+  padding: 17px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  /* background-color: rgb(247, 242, 242); */
+  box-shadow: 0 5px 12px rgb(118, 118, 118);
+  border-radius: 4px;
+
+}
+
+.student__img-content{
+  
+}
+
+.student__img {
+  width: 200px;
+  border-radius:  100%;
 }

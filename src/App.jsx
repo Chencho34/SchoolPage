@@ -1,5 +1,5 @@
-import { Nav } from './components'
 import { AvanceCiclo, Boleta, CambiarClave, CambiarEmail, Kardex, Login, MiPanel, NotFound } from './pages'
+import { Nav } from './components'
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 

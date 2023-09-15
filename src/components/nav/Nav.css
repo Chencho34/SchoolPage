@@ -9,6 +9,8 @@
   position: relative;
 
   & .nav__content-logo {
+    display: flex;
+    align-items: center;
     height: 100%;
     width: 340px;
 
@@ -17,6 +19,10 @@
       height: 100%;
       display: block;
       object-fit: contain;
+    }
+    & .nav__logo-m {
+      /* width: 100px; */
+      height: 90%;
     }
   }
   
@@ -32,14 +38,14 @@
       color: rgb(49, 71, 133);
       text-transform: capitalize;
 
-      &:hover {
+      /* &:hover { */
         /* -webkit-animation: var(); */
-      }
+      /* } */
     }
 
     & .nav__link--active {
       /* border-bottom: 1px solid rgb(60, 0, 255); */
-      text-decoration: underline 2px rgb(0, 85, 255);
+      text-decoration: underline 2px rgb(14, 115, 187);
 
     }
   }
@@ -75,10 +81,7 @@
 @media screen and (max-width: 530px) {
   .nav {
     justify-content: flex-end;
-
   }
-  .nav__content-logo {
-    display: none;
-  }
-
+  
+  
 }
