@@ -10,7 +10,11 @@ function NavItemsV1 ({linksClass, linkClass, itemClass }) {
     <ul className={linksClass}>
       {
         paths.map(({ item, path }) => (
-          <li className={linkClass} key={item}><Link className={itemClass} to={path}>{item}</Link></li>
+          <li 
+            className={linkClass} 
+            key={item}>
+              <Link className={itemClass} to={path}>{item}</Link>
+          </li>
         ))
       }
     </ul>

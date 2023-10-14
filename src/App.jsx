@@ -11,7 +11,7 @@ export default function App() {
       </header>
       <Routes>
         <Route path='/' element={<MiPanel />} />
-        <Route path='/avanceCiclo' element={<AvanceCiclo />} />
+        <Route path='/avanceciclo' element={<AvanceCiclo />} />
         <Route path='/boleta' element={<Boleta />} />
         <Route path='/cambiarclave' element={<CambiarClave />} />
         <Route path='/cambiaremail' element={<CambiarEmail />} />

@@ -1,6 +1,6 @@
 const paths = [
   { path: '/', item: 'mi panel' },
-  { path: '/avanceCiclo', item: 'avance ciclo' },
+  { path: '/avanceciclo', item: 'avance ciclo' },
   { path: '/boleta', item: 'boleta' },
   { path: '/cambiarClave', item: 'cambiar clave' },
   { path: '/cambiarEmail', item: 'cambiar email' },

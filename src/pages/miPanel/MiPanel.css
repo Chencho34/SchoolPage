@@ -1,30 +1,117 @@
-.panel__content {
+.panel {
+  background-color: rgb(195, 201, 226);
   height: calc(100vh - 90px);
+  /* position: relative; */
+  /* top: 40px; */
+  /* margin-top: 200px; */
+  /* height: ; */
+  /* margin: 200px 0; */
+  /* height: 100vh; */
+  /* margin: auto 0; */
+  /* background: #000; */
+
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  /* gap: 3rem; */
+  /* background: linear-gradient(to right, #2878e2, hsl(236, 84%, 46%)); */
+
+
+  /* background-color: #0e233f; */
+
+  background-image: url('../../assets/svg/background.svg');
+  /* background-image: url('../../assets/svg/bg.svg'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.panel__content {
+  height: 75%;
+  width: 100%;
+  /* margin: 230px 0px; */
+  /* overflow-x: hidden; */
+  /* background-color: red; */
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  gap: 3rem;
+  flex-direction: row;
   flex-wrap: wrap;
+  border-radius: 2px;
 }
 
 .student__info {
-  /* height:400px; */
-  /* width: 300px; */
-  padding: 17px;
+  /* background-color: blue; */
   display: flex;
-  align-items: center;
   flex-direction: column;
-  
-  /* background-color: rgb(247, 242, 242); */
-  box-shadow: 0 5px 12px rgb(118, 118, 118);
-  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 15px;
+
+  background: rgba(255, 255, 255, 0.11);
+  /* background: rgba(148, 136, 136, 0.596); */
+border-radius: 4px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7px);
+/* -webkit-backdrop-filter: blur(7px); */
+border: 1px solid rgba(255, 255, 255, 0.3);
 
 }
 
-.student__img-content{
-  
+.student__img-content {
+  /* background-color: yellow; */
+  height: 170px;
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 .student__img {
-  width: 200px;
-  border-radius:  100%;
+  /* width: 100%; */
+  height: 100%;
+}
+
+/* background-image: radial-gradient(circle at 10% 20%, rgba(234, 249, 249, 0.67) 0.1%, rgba(239, 249, 251, 0.63) 90.1%); */
+
+/* .panel__escolar-info, .panel__personal-info { */
+  /* display: flex; */
+  /* flex-direction: row; */
+/* } */
+
+
+.panel__info{
+  /* color: rgb(255, 255, 255); */
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+  flex-wrap: wrap;
+  gap: 40px;
+
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7px);
+  /* -webkit-backdrop-filter: blur(7px); */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+@media screen and (max-width: 1541px) {
+  /* .panel { */
+    /* height: max-content; */
+    /* background-color: red; */
+  /* } */
+
+  .student__info {
+    flex-direction: row;
+    /* width: 100%; */
+
+  }
+  
 }

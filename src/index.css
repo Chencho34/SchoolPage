@@ -10,6 +10,16 @@
 /* font-family: 'Open Sans', sans-serif; */
 }
 
+.background__color {
+  /* height: 100vh; */
+  /* position: relative; */
+  /* top: 0; */
+  /* bottom: 0; */
+  background-image: url('../src/assets/svg/background.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 ul, li {
   list-style: none;

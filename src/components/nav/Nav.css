@@ -1,4 +1,5 @@
 .nav {
+  /* background-color: white; */
   height: 90px;
   width: 100vw;
   display: flex;
@@ -6,7 +7,17 @@
   justify-content: space-between;
   flex-direction: row;
   box-shadow: 2px 0 10px  black;
-  position: relative;
+  /* background: rgba(255, 255, 255, 0.39); */
+  /* border-radius: 4px; */
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+  /* backdrop-filter: blur(7px); */
+  /* -webkit-backdrop-filter: blur(7px); */
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+
+
+  /* position: fixed; */
+  /* z-index: 300; */
+  /* background-image: radial-gradient(1224px at 10.6% 8.8%, rgb(255, 255, 255) 0%, rgb(225, 240, 255) 100.2%); */
 
   & .nav__content-logo {
     display: flex;
@@ -35,7 +46,7 @@
     & .nav__item {
       font-size: .9rem;
       font-weight: 600;
-      color: rgb(49, 71, 133);
+      color: rgb(46, 46, 47);
       text-transform: capitalize;
 
       /* &:hover { */
@@ -53,11 +64,12 @@
   
   & .nav__menu {
     display: none;
-
+    
     /* background-color: aqua; */
     
     & .nav__menu-links {
       position: absolute;
+      /* z-index: 10; */
       top: 3rem;
       right: 0;
       width: 130px;
@@ -82,6 +94,4 @@
   .nav {
     justify-content: flex-end;
   }
-  
-  
 }

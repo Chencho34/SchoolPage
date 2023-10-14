@@ -1,9 +1,9 @@
-import { NavItem } from "..";
+import { NavItem } from '../../nav'
 import { paths } from "../../../constants/data";
 import { useState } from "react";
 
 export default function NavItems () {
-  const [isActive, setIsActive] = useState();  
+  const [isActive, setIsActive] = useState()
   const handleClick = (index) => setIsActive(index)
 
   return (
